@@ -21,11 +21,11 @@
             //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
 
             bindings = <
-&kp ESC       &kp N1  &kp N2  &kp N3    &kp N4     &kp N5                                 &kp N6     &kp N7     &kp N8      &kp N9   &kp N0    &kp MINUS
-&kp TAB       &kp Q   &kp W   &kp E     &kp R      &kp T                                  &kp Y      &kp U      &kp I       &kp O    &kp P     &kp LEFT_BRACKET
-&kp LCTRL     &kp A   &kp S   &kp D     &kp F      &kp G                                  &kp H      &kp J      &kp K       &kp L    &kp SEMI  &kp RIGHT_BRACKET
-&kp LEFT_GUI  &kp Z   &kp X   &kp C     &kp V      &kp B      &kp HOME     &kp END        &kp N      &kp M      &kp COMMA   &kp DOT  &kp FSLH  &kp SQT
-                              &kp LALT  &kp ENTER  &kp SPACE  &kp LCTRL    &kp BACKSPACE  &kp SPACE  &kp ENTER  &kp K_MENU
+&kp ESC         &kp N1  &kp N2  &kp N3    &kp N4     &kp N5                                 &kp N6     &kp N7     &kp N8      &kp N9   &kp N0    &kp MINUS
+&kp TAB         &kp Q   &kp W   &kp E     &kp R      &kp T                                  &kp Y      &kp U      &kp I       &kp O    &kp P     &kp LEFT_BRACKET
+&kp LCTRL       &kp A   &kp S   &kp D     &kp F      &kp G                                  &kp H      &kp J      &kp K       &kp L    &kp SEMI  &kp RIGHT_BRACKET
+&lt 2 LEFT_GUI  &kp Z   &kp X   &kp C     &kp V      &kp B      &kp HOME     &kp END        &kp N      &kp M      &kp COMMA   &kp DOT  &kp FSLH  &kp SQT
+                                &kp LALT  &kp ENTER  &kp SPACE  &kp LCTRL    &kp BACKSPACE  &kp SPACE  &kp ENTER  &kp K_MENU
             >;
         };
 
@@ -38,11 +38,11 @@
             //                       |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans     &kp C_BRI_DN  &kp C_BRI_UP  &kp C_MUTE  &kp C_VOL_DN  &kp C_VOL_UP                    &trans     &trans     &trans           &trans    &trans    &trans
-&kp F1     &kp F2        &kp F3        &kp F4      &kp F5        &kp F6                          &kp F7     &kp F8     &kp F9           &kp F10   &kp F11   &kp F12
-&kp GRAVE  &kp EXCL      &kp AT        &kp HASH    &kp DOLLAR    &kp PRCNT                       &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp TILDE
-&trans     &trans        &trans        &trans      &trans        &trans        &trans    &trans  &trans     &kp MINUS  &kp KP_PLUS      &kp LBRC  &kp RBRC  &kp PIPE
-                                       &trans      &trans        &trans        &trans    &trans  &trans     &trans     &trans
+&kp GRAVE  &kp F1  &kp F2    &kp F3     &kp F4        &kp F5                         &none         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &none         &none
+&trans     &trans  &trans    &kp LG(E)  &kp LG(R)     &kp PAGE_UP                    &kp SLASH     &kp KP_N4        &kp KP_N5        &kp KP_N6        &kp MINUS     &kp F12
+&kp CAPS   &trans  &kp AT    &kp HASH   &kp UP_ARROW  &kp PAGE_DOWN                  &kp STAR      &kp KP_N1        &kp KP_N2        &kp KP_N3        &kp PLUS      &kp PLUS
+&none      &trans  &kp LEFT  &kp RIGHT  &kp DOWN      &kp BACKSPACE  &none    &none  &kp PERCENT   &kp KP_N0        &kp KP_N0        &kp DOT          &kp KP_ENTER  &kp NON_US_BACKSLASH
+                             &none      &none         &kp ENTER      &none    &none  &kp KP_ENTER  &none            &none
             >;
         };
 
@@ -56,8 +56,8 @@
 
             bindings = <
 &studio_unlock  &trans  &trans  &trans  &trans  &trans                    &bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&trans          &trans  &trans  &trans  &trans  &trans                    &trans       &trans        &trans        &trans        &trans        &trans
-&trans          &trans  &trans  &trans  &trans  &trans                    &trans       &kp LEFT      &kp DOWN      &kp UP        &kp RIGHT     &trans
+&trans          &trans  &trans  &trans  &trans  &trans                    &trans       &kp HOME      &kp UP        &trans        &trans        &trans
+&trans          &trans  &trans  &trans  &trans  &trans                    &trans       &kp LEFT      &kp DOWN      &kp RIGHT     &kp RIGHT     &trans
 &trans          &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp KP_PLUS  &kp MINUS     &kp EQUAL     &kp LBKT      &kp RBKT      &kp BSLH
                                 &trans  &trans  &trans  &trans    &trans  &trans       &trans        &trans
             >;
