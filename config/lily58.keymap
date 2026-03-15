@@ -21,11 +21,11 @@
             //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
 
             bindings = <
-&kp ESC         &kp N1  &kp N2  &kp N3    &kp N4     &kp N5                                 &kp N6     &kp N7     &kp N8      &kp N9   &kp N0    &kp MINUS
-&kp TAB         &kp Q   &kp W   &kp E     &kp R      &kp T                                  &kp Y      &kp U      &kp I       &kp O    &kp P     &kp LEFT_BRACKET
-&kp LCTRL       &kp A   &kp S   &kp D     &kp F      &kp G                                  &kp H      &kp J      &kp K       &kp L    &kp SEMI  &kp RIGHT_BRACKET
-&lt 3 LEFT_GUI  &kp Z   &kp X   &kp C     &kp V      &kp B      &kp HOME     &kp END        &kp N      &kp M      &kp COMMA   &kp DOT  &kp FSLH  &kp SQT
-                                &kp LALT  &kp ENTER  &kp SPACE  &kp LCTRL    &kp BACKSPACE  &kp SPACE  &kp ENTER  &kp K_MENU
+&kp ESC         &kp N1  &kp N2  &kp N3    &kp N4       &kp N5                                 &kp N6     &kp N7     &kp N8      &kp N9   &kp N0    &kp MINUS
+&kp TAB         &kp Q   &kp W   &kp E     &kp R        &kp T                                  &kp Y      &kp U      &kp I       &kp O    &kp P     &kp LEFT_BRACKET
+&kp LCTRL       &kp A   &kp S   &kp D     &kp F        &kp G                                  &kp H      &kp J      &kp K       &kp L    &kp SEMI  &kp RIGHT_BRACKET
+&lt 3 LEFT_GUI  &kp Z   &kp X   &kp C     &kp V        &kp B      &kp HOME     &kp END        &kp N      &kp M      &kp COMMA   &kp DOT  &kp FSLH  &kp SQT
+                                &kp LALT  &lt 1 ENTER  &kp SPACE  &kp LCTRL    &kp BACKSPACE  &kp SPACE  &kp ENTER  &kp K_MENU
             >;
         };
 
@@ -38,11 +38,11 @@
             //                       |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp GRAVE  &kp F1  &kp F2    &kp F3     &kp F4        &kp F5                         &none         &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &none         &none
-&trans     &trans  &trans    &kp LG(E)  &kp LG(R)     &kp PAGE_UP                    &kp SLASH     &kp KP_N4        &kp KP_N5        &kp KP_N6        &kp MINUS     &kp F12
-&kp CAPS   &trans  &kp AT    &kp HASH   &kp UP_ARROW  &kp PAGE_DOWN                  &kp STAR      &kp KP_N1        &kp KP_N2        &kp KP_N3        &kp PLUS      &kp PLUS
-&none      &trans  &kp LEFT  &kp RIGHT  &kp DOWN      &kp BACKSPACE  &none    &none  &kp PERCENT   &kp KP_N0        &kp KP_N0        &kp DOT          &kp KP_ENTER  &kp NON_US_BACKSLASH
-                             &none      &none         &kp ENTER      &none    &none  &kp KP_ENTER  &none            &none
+&kp GRAVE  &kp F1  &kp F2    &kp F3     &kp F4        &kp F5                         &none        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &none         &none
+&trans     &trans  &trans    &kp LG(E)  &kp LG(R)     &kp PAGE_UP                    &kp SLASH    &kp KP_N4        &kp KP_N5        &kp KP_N6        &kp MINUS     &kp F12
+&kp CAPS   &trans  &kp AT    &kp HASH   &kp UP_ARROW  &kp PAGE_DOWN                  &kp STAR     &kp KP_N1        &kp KP_N2        &kp KP_N3        &kp PLUS      &kp PLUS
+&none      &trans  &kp LEFT  &kp RIGHT  &kp DOWN      &kp BACKSPACE  &none    &none  &kp PERCENT  &kp KP_N0        &kp KP_N0        &kp DOT          &kp KP_ENTER  &kp NON_US_BACKSLASH
+                             &none      &none         &kp ENTER      &none    &none  &kp SPACE    &kp KP_ENTER     &none
             >;
         };
 
