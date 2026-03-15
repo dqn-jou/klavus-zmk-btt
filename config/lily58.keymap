@@ -63,7 +63,7 @@
             >;
         };
 
-        layer_6 {
+        lay_med_bt {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                            &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                            &trans  &trans  &trans  &trans  &trans  &trans
