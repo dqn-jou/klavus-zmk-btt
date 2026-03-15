@@ -65,11 +65,11 @@
 
         lay_med_bt {
             bindings = <
-&trans  &trans  &trans  &trans      &trans      &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans      &trans      &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans      &trans      &trans                    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans      &trans      &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &bt BT_PRV  &bt BT_NXT  &trans  &trans    &trans  &trans  &trans  &trans
+&bt BT_SEL 0  &trans  &trans  &trans      &trans      &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans        &trans  &trans  &trans      &trans      &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans        &trans  &trans  &trans      &trans      &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans        &trans  &trans  &trans      &trans      &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                              &bt BT_PRV  &bt BT_NXT  &trans  &trans    &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp 0 0>;
