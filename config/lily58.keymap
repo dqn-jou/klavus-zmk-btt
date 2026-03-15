@@ -24,7 +24,7 @@
 &kp ESC         &kp N1  &kp N2  &kp N3    &kp N4     &kp N5                                 &kp N6     &kp N7     &kp N8      &kp N9   &kp N0    &kp MINUS
 &kp TAB         &kp Q   &kp W   &kp E     &kp R      &kp T                                  &kp Y      &kp U      &kp I       &kp O    &kp P     &kp LEFT_BRACKET
 &kp LCTRL       &kp A   &kp S   &kp D     &kp F      &kp G                                  &kp H      &kp J      &kp K       &kp L    &kp SEMI  &kp RIGHT_BRACKET
-&lt 2 LEFT_GUI  &kp Z   &kp X   &kp C     &kp V      &kp B      &kp HOME     &kp END        &kp N      &kp M      &kp COMMA   &kp DOT  &kp FSLH  &kp SQT
+&lt 3 LEFT_GUI  &kp Z   &kp X   &kp C     &kp V      &kp B      &kp HOME     &kp END        &kp N      &kp M      &kp COMMA   &kp DOT  &kp FSLH  &kp SQT
                                 &kp LALT  &kp ENTER  &kp SPACE  &kp LCTRL    &kp BACKSPACE  &kp SPACE  &kp ENTER  &kp K_MENU
             >;
         };
@@ -65,11 +65,11 @@
 
         lay_med_bt {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                            &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                            &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                            &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans          &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &bt BT_CLR_ALL  &trans    &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans      &trans      &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans      &trans      &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans      &trans      &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans      &trans      &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+                        &bt BT_PRV  &bt BT_NXT  &trans  &trans    &trans  &trans  &trans  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp 0 0>;
